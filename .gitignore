@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# Environment and local overrides
+.env
+.env.*
+!.env.example
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
